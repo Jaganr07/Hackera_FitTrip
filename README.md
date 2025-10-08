@@ -1,56 +1,41 @@
-# Welcome to your Expo app 👋
+# FitTrip App
 
-#WORKING OF THE APPLICATION 
+**FitTrip** is a mobile application that allows travelers to **book gym slots at their vacation destination**. The app provides real-time gym availability, booking options, and convenient payment features to make fitness travel-friendly and hassle-free.
 
-https://vioo.cc/v/3Dv7
+---
 
+## Features
+- **Discover Gyms Nearby:** Search gyms based on your location at your travel destination.  
+- **Real-Time Slot Booking:** Check available time slots and book instantly.  
+- **Convenient Payments:** Pay directly through the app for gym access.  
+- **User Profiles:** Track your bookings, payment history, and gym visits.  
+- **Notifications:** Get reminders for upcoming bookings or special offers.  
 
+---
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Technology Stack
+- **Frontend:** React Native / Expo  
+- **Backend:** Firebase (Authentication & Firestore)  
+- **Maps & Location:** Google Maps API  
+- **Push Notifications:** Firebase Cloud Messaging (FCM)  
 
-## Get started
+---
 
-1. Install dependencies
+## How It Works
+1. **User Authentication:** Users sign up or log in via email.  
+2. **Browse Gyms:** The app fetches nearby gyms using the user’s location.  
+3. **Select and Book:** Users select a gym, choose a slot, and make a payment.  
+4. **Receive Confirmation:** Booking confirmation and reminders are sent via notifications.  
 
-   ```bash
-   npm install
-   ```
+---
 
-2. Start the app
+## Screenshots / Demo
+*(Add screenshots or GIFs of the app here)*
 
-   ```bash
-    npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
+## Installation
+1. Clone the repository:  
 ```bash
-npm run reset-project
-```
+git clone https://github.com/username/fittrip-app.git
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
